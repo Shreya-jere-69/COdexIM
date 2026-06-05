@@ -1,0 +1,25 @@
+{
+  "name": "codexim",
+  "version": "1.0.0",
+  "description": "Inventory Management System using MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "MERN",
+    "Inventory Management",
+    "MongoDB",
+    "Express",
+    "React",
+    "Node.js"
+  ],
+  "author": "Shreya-jere-69",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
